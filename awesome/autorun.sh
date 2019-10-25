@@ -15,4 +15,5 @@ run ~/scripts/inverse-scroll.sh
 run ~/scripts/run-mailsync.sh
 #run vaiety
 run xmodmap ~/.Xmodmap
+run fcitx
 

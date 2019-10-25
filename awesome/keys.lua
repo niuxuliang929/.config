@@ -124,6 +124,11 @@ keys.globalkeys = {
     awful.key({ modkey, "Control"   }, "q", awesome.quit,
               {description = "quit awesome", group = "awesome"}),
 
+		-- Others
+    awful.key({ modkey, "Control" }, "s", function () awful.spawn("sh /home/david/scripts/sk-toggle.sh") end,
+              {description = "toggle screenkey", group = "launcher"}),
+
+
 		--awful.key({ modkey, "Control" }, "e", function (c)
         --helpers.resize_dwim(client.focus, "down")
     --end),
